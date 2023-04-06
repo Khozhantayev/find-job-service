@@ -1,4 +1,4 @@
-      *{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,35 +34,6 @@
     font-size: 14px;
     color: #cacdd2;
 }
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 10px;
-
-}
-.socials a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-
-}
-.socials a i{
-    font-size: 3rem;
-    width: 20px;
-
-
-    transition: color .4s ease;
-
-}
-.socials a:hover i{
-    color: #5aa5b9;
-}
-
 .footer-bottom{
 
   background-color: var(--color-sub-light);
@@ -145,8 +116,6 @@ img {
   max-width: 85rem;
   margin: 0 auto;
 }
-
-
 .header {
   position: sticky;
   z-index: 111;
@@ -286,7 +255,6 @@ img {
   }
 }
 
-
 .hero-section {
   height: 40vh;
   display: flex;
@@ -374,7 +342,6 @@ img {
     width: 100%;
   }
 }
-
 
 .devlist {
   margin-top: 8rem;
@@ -515,7 +482,6 @@ img {
   }
 }
 
-
 .settingsPage .dev > .settings__btn {
   display: inline-block;
   margin-bottom: 3rem;
@@ -526,48 +492,39 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-
 .settings__title {
   font-size: 2.4rem;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--color-sub);
 }
-
 .settings__table {
   margin-top: 3rem;
   margin-bottom: 5rem;
   padding: 0 3rem;
   background: var(--color-white);
 }
-
 .settings__table tr {
   width: 100%;
 }
-
 .settings__table tr > td {
   padding: 2rem 0;
 }
-
 .settings__table tr:not(:last-child) td {
   border-bottom: 2px solid var(--color-white-light);
 }
-
 .settings__thumbnail {
   width: 23%;
   min-width: 10rem;
 }
-
 .settings__thumbnail img {
   padding-right: 3rem;
   height: 15rem;
   object-fit: contain;
 }
-
 .settings__tableInfo{
   width: 100%;
 }
-
 .settings__tableInfo h4,
 .settings__tableInfo a {
   padding-right: 1rem;
@@ -576,16 +533,12 @@ img {
   font-weight: 500;
   color: var(--color-sub);
 }
-
 .settings__tableInfo p {
   font-size: 1.4rem;
 }
-
 .settings__tableActions {
   text-align: right;
 }
-
-
 
 .auth {
   width: 100%;
@@ -597,7 +550,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
 .auth::after {
   z-index: -1;
   opacity: 0.1;
@@ -610,13 +562,11 @@ img {
   right: 0;
   background: url(../images/pattern.jpg);
 }
-
 .auth > .card {
   padding: 3rem 4rem;
   width: 95%;
   max-width: 65rem;
 }
-
 @media screen and (min-width: 650px) {
   .auth > .card {
     padding: 5rem 8rem;
@@ -624,30 +574,25 @@ img {
     max-width: 65rem;
   }
 }
-
 .auth__header h3 {
   color: var(--color-sub);
   font-weight: 700;
   margin-top: 1rem;
 }
-
 .auth__header p {
   font-weight: 400;
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
-
 .auth__form {
   margin: 3rem 0;
 }
-
 .auth .auth__form label,
 .auth .auth__alternative p {
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--color-sub-light);
 }
-
 .auth .auth__actions {
   display: flex;
   justify-content: space-between;
@@ -662,8 +607,6 @@ img {
   font-size: 2rem;
   font-weight: 500;
 }
-
-
 .inbox {
   height: 90vh;
 }
@@ -726,7 +669,6 @@ img {
   text-align: right;
 }
 
-
 .messagePage .message {
   list-style: none;
   background: var(--color-white);
@@ -769,8 +711,6 @@ img {
   font-size: 1.8rem;
 }
 
-
-
 .formPage .formWrapper {
   list-style: none;
   background: var(--color-white);
@@ -786,14 +726,10 @@ img {
   margin-top: 2rem;
 }
 
-
-
 .alert {
   position: fixed;
   left: 50%;
   top: 120px;
   transform: translate(-50%, -50%);
-
-
   z-index: 99999;
 }
